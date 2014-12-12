@@ -1,2 +1,2 @@
-# ext-theme-material - Read Me
+# my-custom-theme - Read Me
 
