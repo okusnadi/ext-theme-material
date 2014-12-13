@@ -1,3 +1,12 @@
+/* line 541, ../../../../ext/packages/ext-theme-neutral/sass/src/button/Button.scss */
+.x-btn-wrap-plain-toolbar-small.x-btn-arrow-right:after {
+  width: 22px;
+  padding-right: 22px;
+  background-image: url(images/button/plain-toolbar-small-arrow.png); }
+/* line 554, ../../../../ext/packages/ext-theme-neutral/sass/src/button/Button.scss */
+.x-btn-wrap-plain-toolbar-small.x-rtl.x-btn-arrow-right:after {
+  background-image: url(images/button/plain-toolbar-small-arrow-rtl.png); }
+/* line 563, ../../../../ext/packages/ext-theme-neutral/sass/src/button/Button.scss */
 .x-btn-wrap-plain-toolbar-small.x-btn-arrow-bottom:after {
   height: 16px;
   background-image: url(images/button/plain-toolbar-small-arrow.png); }

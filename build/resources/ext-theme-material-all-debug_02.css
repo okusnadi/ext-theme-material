@@ -1,3 +1,18 @@
+/*</if slicer>*/
+/* */
+/*<if slicer>*/
+/* line 83, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/slicer.scss */
+.x-cmd-slicer.x-btn-disabled.x-btn-plain-toolbar-medium:before {
+  display: none;
+  content: "x-slicer:stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-plain-toolbar-medium-disabled-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-disabled-sides.gif), frame-bg:url(images/btn/btn-plain-toolbar-medium-disabled-fbg.gif)" !important; }
+
+/*</if slicer>*/
+/* */
+/* line 1128, ../../../../ext/packages/ext-theme-neutral/sass/src/button/Button.scss */
+.x-button-plain-toolbar-medium-cell > .x-grid-cell-inner {
+  padding-top: 0;
+  padding-bottom: 0; }
+  /* line 1133, ../../../../ext/packages/ext-theme-neutral/sass/src/button/Button.scss */
   .x-button-plain-toolbar-medium-cell > .x-grid-cell-inner > .x-btn-plain-toolbar-medium {
     vertical-align: top; }
 

@@ -86,6 +86,20 @@
 /* including package ext-theme-material */
 /* including package ext-theme-material */
 @import url(http://fonts.googleapis.com/css?family=Roboto);
+/* line 1, ../../sass/var/button/Button.scss */
+.x-btn-default-small {
+  min-width: 10em;
+  background-image: none !important;
+  border: none !important;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26) !important;
+  margin: 1em;
+  padding: 6px;
+  transform: translate3d(0, 0, 0); }
+
+/* line 11, ../../sass/var/button/Button.scss */
+.x-btn-inner {
+  line-height: 25px !important; }
+
 /* including package ext-touch-sizing */
 /* including package ext-theme-neptune */
 /** @class Global_CSS */
@@ -26966,18 +26980,3 @@ tr.x-grid-subtable-row {
 .x-cmd-slicer.x-btn-focus.x-btn-pressed.x-btn-plain-toolbar-medium:before {
   display: none;
   content: "x-slicer:stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-plain-toolbar-medium-focus-pressed-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-focus-pressed-sides.gif), frame-bg:url(images/btn/btn-plain-toolbar-medium-focus-pressed-fbg.gif)" !important; }
-
-/*</if slicer>*/
-/* */
-/*<if slicer>*/
-/* line 83, ../../../../ext/packages/ext-theme-base/sass/etc/mixins/slicer.scss */
-.x-cmd-slicer.x-btn-disabled.x-btn-plain-toolbar-medium:before {
-  display: none;
-  content: "x-slicer:stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-plain-toolbar-medium-disabled-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-disabled-sides.gif), frame-bg:url(images/btn/btn-plain-toolbar-medium-disabled-fbg.gif)" !important; }
-
-/*</if slicer>*/
-/* */
-/* line 1128, ../../../../ext/packages/ext-theme-neutral/sass/src/button/Button.scss */
-.x-button-plain-toolbar-medium-cell > .x-grid-cell-inner {
-  padding-top: 0;
-  padding-bottom: 0; }
