@@ -1,1 +1,56 @@
-/home/deep/www/ext/material.css
+/** TABS **/
+.x-tab-default-top {
+    padding: 7px 40px 6px 40px;
+    background: transparent !important;
+    border: none;
+}
+
+.x-tab-active {
+    border-bottom: 2px solid #ffff85 !important;
+    border-color: none;
+}
+
+.x-tab-bar-top>.x-tab-bar-strip-default {
+    display: none;
+
+}
+
+.x-tab-bar-top>.x-tab-bar-body-default {
+    padding-bottom: 0px !important;
+}
+
+.x-tab-inner-default {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+
+.x-tab.x-tab-active.x-tab-default .x-tab-inner-default {
+    color: #ffffff !important;
+}
+
+/** FORMS **/
+.x-form-trigger-wrap-default {
+    border-left: none !important;
+    border-top: none !important;
+    border-right: none !important;
+    border-bottom: 1px rgba(0, 0, 0, 0.12) solid;
+
+}
+
+.x-form-item-label-default.x-form-item-label-top>.x-form-item-label-inner {
+        padding: 0 !important;
+}
+
+.x-form-text-default {
+    padding: 0 !important;
+    fron-weight: normal;
+}
+
+.x-form-item-label-top {
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.372549);
+}
+
+.x-form-trigger-wrap-focus {
+    border-bottom-width: 2px !important;
+}
